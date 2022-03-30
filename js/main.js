@@ -1,8 +1,3 @@
-/*
-Template Name: Appvilla - Creative Landing Page HTML Template.
-Author: GrayGrids
-*/
-
 (function () {
   //===== Prealoder
 
@@ -15,9 +10,7 @@ Author: GrayGrids
     document.querySelector(".preloader").style.display = "none";
   }
 
-  /*=====================================
-    Sticky
-    ======================================= */
+  /*======== Sticky =============== */
   window.onscroll = function () {
     var header_navbar = document.querySelector(".navbar-area");
     var sticky = header_navbar.offsetTop;

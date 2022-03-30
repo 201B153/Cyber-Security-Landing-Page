@@ -1,9 +1,3 @@
-/*======================================
-    Variables
-========================================*/
-/*======================================
-    Normalize CSS
-========================================*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 html {
@@ -1990,7 +1984,7 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-(max-width: 767px) {
+  (max-width: 767px) {
   .navbar-nav .nav-item a.dd-menu::after {
     top: 18px;
     right: 0;
@@ -2000,20 +1994,20 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-(max-width: 767px) {
+  (max-width: 767px) {
   .navbar-nav .nav-item a.collapsed::after {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
 
-.navbar-nav .nav-item:hover>.sub-menu {
+.navbar-nav .nav-item:hover > .sub-menu {
   top: 100%;
   opacity: 1;
   visibility: visible;
 }
 
-.navbar-nav .nav-item:hover>.sub-menu .sub-menu {
+.navbar-nav .nav-item:hover > .sub-menu .sub-menu {
   left: 100%;
   top: 0;
 }
@@ -2077,26 +2071,26 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-(max-width: 767px) {
+  (max-width: 767px) {
   .navbar-nav .nav-item .sub-menu.collapse:not(.show) {
     display: none;
   }
 }
 
-.navbar-nav .nav-item .sub-menu>li {
+.navbar-nav .nav-item .sub-menu > li {
   display: block;
   margin-left: 0;
 }
 
-.navbar-nav .nav-item .sub-menu>li:last-child {
+.navbar-nav .nav-item .sub-menu > li:last-child {
   border: none;
 }
 
-.navbar-nav .nav-item .sub-menu>li.active>a {
+.navbar-nav .nav-item .sub-menu > li.active > a {
   color: #ff6b81 !important;
 }
 
-.navbar-nav .nav-item .sub-menu>li>a {
+.navbar-nav .nav-item .sub-menu > li > a {
   font-weight: 400;
   display: block;
   padding: 12px 15px;
@@ -2105,7 +2099,7 @@ ol {
   font-weight: 400;
 }
 
-.navbar-nav .nav-item .sub-menu>li:first-child a {
+.navbar-nav .nav-item .sub-menu > li:first-child a {
   border: none;
 }
 
@@ -2288,7 +2282,7 @@ ol {
 
 .hero-area .hero-content .button .video-button .video:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   height: 100%;
@@ -2516,7 +2510,7 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-(max-width: 767px) {
+  (max-width: 767px) {
   .our-achievement .title h2 {
     font-size: 24px;
     line-height: 32px;
@@ -2543,7 +2537,7 @@ ol {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
-(max-width: 767px) {
+  (max-width: 767px) {
   .team-table .section-title {
     margin-bottom: 30px;
   }
